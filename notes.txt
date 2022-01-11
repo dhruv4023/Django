@@ -1,0 +1,6 @@
+python manage.py runserver                  <--- to run the server 
+django-admin startproject <projectname>     <--- to start a project
+python manage.py                            <--- to see all commands
+python manage.py startapp                   <--- to craete app
+python manage.py makemigrations             <--- create changes and store in a file 
+python manage.py migrate                    <--- apply the pending changes created by makemigrations

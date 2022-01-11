@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock title %} | HolyTear</title>
+</head>
+<link rel="stylesheet" href="/static/csss.css">
+<style>
+    
+</style>
+<body>
+    <div class="main">
+        <div>
+            <h1>
+                holy tear
+            </h1>
+        </div>
+        <div id="container">
+            <div>
+                <nav class="navbar">
+                    <ul>
+                        <li><a class="lnk" href="/">Home</a></li>
+                        <li><a class="lnk" href="/quatoes">Quatoes</a></li>
+                        <li><a class="lnk" href="/contact">Contact</a></li>
+                        <!-- <li> -->
+                        <div class=search>
+                            <input type="text" name="search" id="search" placeholder=" Search...">
+                        </div>
+                        <!-- </li> -->
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        {% if messages %}
+        {% for message in messages  %}
+           <div class="mess">
+                   {{message}}            
+           </div>
+        {% endfor %}
+        {% endif %}
+        {% block body %}{% endblock body %}
+
+        <div class="btm">
+            <h3>Thx for visting HolY TeaR</h3>
+        </div>
+    </div>
+</body>
+<script src="/static/jss.js"></script>
+</html>

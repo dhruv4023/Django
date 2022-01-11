@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  align-self: center;
+  background: 0;
+  font-size: 4vh;
+  height: 7vh;
+  background-color: rgba(15, 85, 214, 0.808);
+  text-align: center;
+  border: 0.5vh solid rgb(45, 78, 224);
+}
+.main {
+  height: 100%;
+  width: 100%;
+  /* }
+*::after { */
+  background-image: url("/static/image/House.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: cursive;
+  font-weight: bold;
+  background-size: 160vw 100vh;
+  color: white;
+  /* opacity: 0.8; */
+  /* display: flex; */
+}
+#container {
+  background: 0;
+  height: 6vh;
+  max-width: 100vw;
+  border: 1px solid rgb(41, 34, 34);
+  font-size: 2.5vh;
+  background-color: black;
+}
+.navbar {
+  /* border: 2px solid red; */
+  /* background: 0; */
+  background-color: black;
+  /* display: flex; */
+  max-width: 100vw;
+  /* z-index: 1; */
+}
+.navbar ul {
+  overflow: auto;
+}
+.navbar li {
+  /* border: 2px solid red; */
+  color: rgb(45, 78, 224);
+  padding: 1vh;
+  list-style: none;
+  float: left;
+}
+.navbar li a {
+  text-decoration: none;
+  color: yellow;
+}
+.navbar li a:hover {
+  text-decoration: none;
+  color: rgb(121, 121, 36);
+}
+.navbar li a.active {
+  text-decoration: underline;
+  /* cursor:default; */
+  color: rgb(81, 68, 196);
+}
+#search {
+  background: 0;
+  background-color: black;
+  float: right;
+  margin: 1vh;
+  border: 0.3vh solid rgb(127, 141, 45);
+  border-radius: 2vh;
+  padding: 0.2vh;
+}
+input {
+  color: white;
+  font-size: 2.5vh;
+  width: 30vw;
+}
+/* .cont {
+  display: flex;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  padding: 0.2vh;
+} */
+.box {
+  margin: 0.1vh;
+  padding: 0.2vh;
+  border: 5px solid blue;
+  min-height: 82.7vh;
+  display: flex;
+}
+.boxes {
+  justify-content: space-around;
+  align-items: center;
+  /* justify-content: space-evenly; */
+  margin: 0.3vh;
+  padding: 0.3vh;
+  border: 5px solid blue;
+}
+#box1 {
+  /* font-size: 1.1vh; */
+  flex-grow: 1;
+  /* max-width: 30%; */
+}
+#box2 {
+  display: flex;
+  /* grid-template-rows: ; */
+  flex-wrap: wrap;
+  flex-grow: 7;
+  /* width: 30px; */
+  /* max-width: %; */
+}
+.chap {
+  margin: 0.3vh;
+  border: 1px solid #000;
+  border-radius: 1vh;
+  background-color: rgba(15, 11, 11, 0.685);
+  padding-left: 5vw;
+  padding: 8px;
+  list-style: none;
+  text-decoration: none;
+  font-size: 3vw;
+  font-size: 3vh;
+}
+
+h2 {
+  text-decoration: underline;
+}
+.imge {
+  /* padding:7vh; */
+  margin: auto;
+  margin: 1vh;
+  margin: 1vw;
+  display: block;
+  max-height: 50vh;
+  max-width: 50vw;
+}
+h3 {
+  background-color: black;
+  border: 0.3vh solid yellowgreen;
+  text-align: center;
+  /* font-size: 0.9rem; */
+  font-size: 3.5vw;
+  font-size: 3.5vh;
+
+  /* text-overflow: wrap; */
+}
+
+.box li a {
+  text-decoration: none;
+  color: yellow;
+  /* font-size: 3vw; */
+  font-size: 100%;
+  padding: 2%;
+}
+.box li a:hover {
+  text-decoration: none;
+  /* font-size: 3vw; */
+  font-size: 100%;
+  padding: 2%;
+  color: rgb(121, 121, 36);
+}
+.box li a.active {
+  text-decoration: underline;
+  /* cursor:default; */
+  /* font-size: 3vw; */
+  font-size: 100%;
+  padding: 2%;
+  color: rgb(11, 141, 33);
+}
+
+/*  contact */
+
+#contact {
+  /* border: 1px solid #000000; */
+  margin: auto;
+  background-color: rgba(153, 205, 50, 0.603);
+  /* border-radius:50px; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* width: 1100; */
+  min-height:81.6vh ;
+  padding: 50px;
+}
+#contact-box {
+  margin: auto;
+}
+#contact-box input {
+  border: 3px solid #000000;
+  border-radius: 6px;
+  width: 50%;
+  text-align: center;
+  background: none;
+  color: #000000;
+  padding: 3px;
+  font-size: 15px;
+  font-weight: bold;
+}
+::placeholder{
+  color: #00000093;
+}
+.form-group {
+  padding: 10px;
+}
+.h-primary {
+  font-size: 3.8rem;
+  padding: 12px;
+  text-align: center;
+}
+.h-secondary {
+  text-align: center;
+  font-size: 2.8rem;
+  padding: 12px;
+}
+.btn {
+  padding: 6px 20px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  background-color: brown;
+  color: white;
+  margin: 17px;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+p {
+  text-align: center;
+}
+#imgs{
+  height: 200px;
+  width: 150px;
+}
+h2 {
+  background-color: black;
+  border: 0.3vh solid rgb(42, 32, 175);
+  text-align: center;
+  font-size: 2.4vh;
+  color: white;
+}
+h5{
+  border-radius: 30px;
+  background-color: rgba(43, 65, 161, 0.596);
+}
+
+
+/* for shown message */
+.mess{
+  color :rgb(41, 34, 34);
+  background-color: royalblue;
+  font-size: 15px;
+  font-family: cursive;
+  padding: 7px;
+  text-align: center;
+}
